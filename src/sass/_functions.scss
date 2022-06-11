@@ -1,0 +1,3 @@
+@function FontSize($FontSize) {
+  @return calc($FontSize + 2vmin)
+}

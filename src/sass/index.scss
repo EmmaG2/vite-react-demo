@@ -1,0 +1,29 @@
+@forward './reset';
+@forward './components';
+
+@use 'functions';
+@use 'colors';
+
+.text 
+{
+  font-size: functions.FontSize(18px);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: #48e;
+  text-align: center;
+}
+
+.Main 
+{
+  margin: 10px 20px;
+}
+
+#root 
+{
+  text-align: center;
+}
+
+.Tittle
+{
+  font-size: functions.FontSize(15px);
+  color: colors.$BlueSea;
+}
